@@ -1,17 +1,19 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import RedCard from './components/RedCard';
-import GreenCard from './components/GreenCard';
-import BlackCard from './components/BlackCard';
+import RedCardHero from "./components/RedCardHero.tsx";
+import GreenCardHero from "./components/GreenCardHero.tsx";
+import BlackCardHero from "./components/BlackCardHero.tsx";
+import RegisterBar from "./components/RegisterBar.tsx";
 
 function App () {
     return (
         <>
             <Navbar/>
             <Hero/>
-            <RedCard/>
-            <GreenCard />
-            <BlackCard />
+            <RedCardHero/>
+            <GreenCardHero/>
+            <BlackCardHero/>
+            <RegisterBar />
         </>
     );
 }
