@@ -1,20 +1,13 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import RedCardHero from "./components/RedCardHero.tsx";
-import GreenCardHero from "./components/GreenCardHero.tsx";
-import BlackCardHero from "./components/BlackCardHero.tsx";
-import RegisterBar from "./components/RegisterBar.tsx";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Index from "../src/pages/Index.tsx";
 
 function App () {
     return (
-        <>
-            <Navbar/>
-            <Hero/>
-            <RedCardHero/>
-            <GreenCardHero/>
-            <BlackCardHero/>
-            <RegisterBar />
-        </>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Index />} />
+            </Routes>
+        </Router>
     );
 }
 

@@ -12,7 +12,7 @@ function RedCard() {
             <div className="flex justify-between font-mono mt-1 text-[7px] max-w-40 w-full mx-auto">
                 <div className="flex flex-col items-center">
                     <p>CARD HOLDER</p>
-                    <p>JOE DOE</p>
+                    <p>JOHN DOE</p>
                 </div>
                 <div className="flex flex-col items-center">
                     <p>EXPIRATION DATE</p>

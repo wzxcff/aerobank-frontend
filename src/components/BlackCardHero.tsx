@@ -13,17 +13,17 @@ function BlackCardHero() {
 
             <div className="flex justify-center items-center gap-x-15">
                 <div className="flex flex-col items-center">
-                    <p>For free</p>
-                    <p className="text-gray-400 font-light">order</p>
+                    <p>To 62 days</p>
+                    <p className="text-gray-400 font-light">grace period</p>
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <p>To 20%</p>
+                    <p>To 30%</p>
                     <p className="text-gray-400 font-light">cashback</p>
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <p>500 – 3000€</p>
+                    <p>500 – 10 000€</p>
                     <p className="text-gray-400 font-light">credit limit</p>
                 </div>
             </div>

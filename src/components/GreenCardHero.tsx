@@ -23,8 +23,8 @@ function GreenCardHero() {
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <p>500 – 3000€</p>
-                    <p className="text-gray-400 font-light">credit limit</p>
+                    <p>For free</p>
+                    <p className="text-gray-400 font-light">maintenance</p>
                 </div>
             </div>
 
