@@ -15,10 +15,10 @@ function Registration(){
                 </div>
                 <div className="mt-2">
                     <label htmlFor="email">Email</label>
-                    <label htmlFor="email" className="ml-54">Phone number</label><br/>
+                    <label htmlFor="phone" className="ml-54">Phone number</label><br/>
                     <input placeholder="example@gmail.com" name="email"
                            className="mt-1 mr-3 py-2 px-3 rounded-lg border-[0.1px] border-neutral-400"/>
-                    <input placeholder="+498914539876" name="lastname"
+                    <input placeholder="+498914539876" name="phone"
                            className="mt-1 py-2 px-3 rounded-lg border-[0.1px] border-neutral-400"/>
                 </div>
                 <div className="mt-2">
